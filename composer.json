@@ -2,9 +2,10 @@
     "name": "dgateles/flarum-ext-ptbr",
     "type": "flarum-extension",
     "description": "Brazilian Portuguese language pack.",
+    "homepage": "https://github.com/dgateles/flarum-ext-portuguese-br",
     "keywords": ["locale"],
     "license": "MIT",
-        "authors": [
+    "authors": [
 	    {
 		    "name": "Douglas Teles",
 		    "email": "dga.teles@gmail.com",
@@ -12,6 +13,10 @@
 	    }
            
     ],
+    "support": {
+        "issues": "https://github.com/dgateles/flarum-ext-portuguese-br/issues",
+        "source": "https://github.com/dgateles/flarum-ext-portuguese-br",
+    },
     "require": {
         "flarum/core": "^0.1.0-beta.6"
     },
@@ -20,7 +25,7 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "Brazilian Portuguese Mark0",
+            "title": "Brazilian Portuguese",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
