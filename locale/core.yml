@@ -364,22 +364,22 @@ core:
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "Já possui uma conta? <a>Entre</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "Bem-vindo, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Remove
+      avatar_remove_button: Remover
       avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
-      bio_placeholder: Write something about yourself
+      avatar_upload_tooltip: Enviar novo avatar
+      bio_placeholder: Escreva algo sobre você
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
+      in_discussion_text: "Em {discussion}"
+      joined_date_text: "Cadastrado {ago}"
       online_text: Online
       posts_load_more_button: => core.ref.load_more
       posts_link: Posts
@@ -389,21 +389,21 @@ core:
     user_controls:
       button: Controls
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "Tem certeza de que deseja excluir esse usuário? Todas as postagens do usuário serão excluídas."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: Reenviar e-mail de confirmação
+      sent_message: Enviado
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: Oculto
 
     # These translations are used to modify usernames.
     username:
@@ -411,10 +411,10 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      generic_message: "Opa! Algo deu errado. Por favor, recarregue a página e tente denovo."
+      not_found_message: O recurso solicitado não foi encontrado.
+      permission_denied_message: Você não tem permissão para fazer isso.
+      rate_limit_exceeded_message: Você está indo um pouco rápido demais. Tente novamente em alguns segundos.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -424,22 +424,22 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, e {third}"
+      two_text: "{first} e {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site.
-      loading_text: Loading...
+      javascript_disabled_message: Este site é melhor visualizado em um navegador moderno com JavaScript habilitado.
+      load_error_message: Algo deu errado ao tentar carregar a versão completa deste site.
+      loading_text: Carregando...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Previous Page
+      previous_page_button: Página Anterior
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -450,54 +450,54 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: Reset Password
+      submit_button: Redefinir Senha
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "O nome de usuário só pode conter letras, números e traços."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: Ativar Sua Nova Conta
       body: |
-        Hey {username}!
+        Ei {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Alguém (espero que seja você!) cadastrou-se em {forum} com este endereço de e-mail.
 
-        If this was you, simply click the following link and your account will be activated:
+        Se foi você, basta clicar no seguinte link e sua conta será ativada:
         {url}
 
-        If you did not sign up, please ignore this email.
+        Se você não se cadastrou, ignore este e-mail.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: Confirmar Endereço de E-mail
       body: |
-        Hey {username}!
+        Ei {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Alguém (espero que seja você!) mudou seu endereço de e-mail em {forum} para esse novo.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Se foi você, basta clicar no seguinte link e seu e-mail será confirmado:
         {url}
 
-        If this was not you, please ignore this email.
+        Se não foi você, ignore este e-mail (talvez seja melhor mudar sua senha).
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        Ei {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Alguém (espero que seja você!) enviou uma solicitação de senha esquecida para sua conta em {forum}.
 
-        If this was you, click the following link to reset your password:
+        Se foi você, clique no seguinte link para redefinir sua senha:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Se você não deseja mudar sua senha, ignore este e-mail e nada acontecerá.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -505,36 +505,36 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
+    all_discussions: Todas Discussões
+    change_email: Alterar E-mail
+    change_password: Alterar Senha
+    confirm_password: Confirmar Senha
+    confirmation_email_sent: "Nós enviamos um e-mail de confirmação para {email}. Caso o mesmo não chegue em breve, verifique sua caixa de spam."
+    delete: Apagar
+    delete_forever: Apagar Permanentemente
+    discussions: Discussões
+    edit: Editar
+    email: E-mail
+    load_more: Carregar Mais
+    log_in: Entrar
+    log_out: Sair
+    mark_all_as_read: Marcar Todos como Lidos
+    next_page: Próxima Página
+    notifications: Notificações
     okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    password: Senha
+    rename: Renomear
+    reply: Responder                                 # Referenced by flarum-mentions.yml
+    reset_your_password: Redefinir Sua Senha
+    restore: Restaurar
+    save_changes: Salvar Alterações                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Configurações
+    sign_up: Cadastre-se
+    some_others: "{count} outro|{count} outros"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Novo Tópico
+    username: Usuário
+    write_a_reply: Responder...
+    you: Você                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -544,9 +544,9 @@ core:
   group:
     admin: Admin
     admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
+    guest: Visitante
+    guests: Visitantes
+    member: Membro
+    members: Membros
     mod: Mod
     mods: Mods
