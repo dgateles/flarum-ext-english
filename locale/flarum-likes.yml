@@ -30,7 +30,7 @@ flarum-likes:
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Usuário Que Curtiram Isso
+      title: Usuários Que Curtiram Isso
 
     # These translations are used in the Settings page.
     settings:
