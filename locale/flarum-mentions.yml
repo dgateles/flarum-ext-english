@@ -31,6 +31,6 @@ flarum-mentions:
       notify_post_mentioned_label: Alguém respondeu uma de minhas postagens
       notify_user_mentioned_label: Alguém me mencionou em uma postagem
 
-    # These translations are used in the user profile page and profile popup.
+    # These translations are used in the user profile page and profile popup .
     user:
       mentions_link: Menções
