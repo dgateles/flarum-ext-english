@@ -102,9 +102,9 @@ core:
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: Add Extensão
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: Desinstalar
 
     # These translations are used in the session dropdown menu.
     header:
@@ -116,28 +116,28 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
-      appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
-      basics_text: "Set your forum title, language, and other basic settings."
+      appearance_button: Aparêcia
+      appearance_text: "Personalize as cores, logotipos e outras variáveis ​​do seu fórum."
+      basics_button: Básicos
+      basics_text: "Defina o título, o idioma e outras configurações básicas do seu fórum."
       dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
+      dashboard_text: Seu fórum em um relance.
       email_button: => core.ref.email
-      email_text: "Configure your forum's email settings."
-      extensions_button: Extensions
-      extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
-      permissions_text: Configure who can see and do what.
+      email_text: "Configure as configurações de e-mail do seu fórum."
+      extensions_button: Extensões
+      extensions_text: Adicione funcionalidades extras ao seu fórum e faça o seu próprio.
+      permissions_button: Permissões
+      permissions_text: Configure quem pode ver e fazer o que.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Allow renaming
-      allow_post_editing_label: Allow post editing
+      allow_renaming_label: Permitir renomear
+      allow_post_editing_label: Permitir edição de postagem
       create_heading: Criar
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      edit_and_delete_posts_label: Edit and delete posts
+      delete_discussions_forever_label: Excluir discussões permanentemente
+      delete_discussions_label: Excluir discussões
+      delete_posts_forever_label: Excluir postagens permanentemente
+      edit_and_delete_posts_label: Editar e excluir postagens
       global_heading: Global
       moderate_heading: Moderar
       new_group_button: Novo Grupo
@@ -148,16 +148,16 @@ core:
       sign_up_label: Cadastre-se
       start_discussions_label: Iniciar uma discussão
       view_discussions_label: Ver discussões
-      view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      view_post_ips_label: Ver endereço IP das postagens
+      view_user_list_label: Ver lista de usuários
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: Indefinido
+      allow_some_minutes_button: "Para {count} minuto|Para {count} minutos"
+      allow_ten_minutes_button: Por 10 minutos
+      allow_until_reply_button: Até a próxima resposta
+      everyone_button: Qualquer um
       members_button: => core.group.members
       signup_closed_button: Fechado
       signup_open_button: Abrir
@@ -179,14 +179,14 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: A senha que você digitou está incorreta.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: Enviar E-mail de Redefinição de Senha
+      text: Clique no botão abaixo e verifique seu e-mail para redefinir sua senha.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -199,56 +199,56 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Escreva uma postagem...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
+      discard_confirmation: "Você não postou sua discussão. Deseja descartá-la?"
       submit_button: Postar Discussão
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: Título da Discussão
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "Você não salvou suas alterações. Deseja descartá-las?"
+      post_link: "Post #{number} em {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
+      discard_confirmation: "Você não postou sua resposta. Deseja descartá-la?"
       posted_message: Sua resposta foi publicada.
       submit_button: Responder
-      view_button: View
+      view_button: Ver
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: Não pode Responder
+      cannot_reply_text: Você não tem permissão para responder a esta discussão.
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "Tem certeza de que deseja excluir esta discussão?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
+      log_in_to_reply_button: Entre para Responder
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks like there are no discussions here.
+      empty_text: Parece que não há discussões aqui.
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
+      mark_as_read_tooltip: Marcar como Lido
       replied_text: "{username} respondeu {ago}"
       started_text: "{username} iniciou {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: Ativar Usuário
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: Grupos
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: Definir nova senha
       submit_button: => core.ref.save_changes
-      title: Edit User
+      title: Editar Usuário
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -256,27 +256,27 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: Enviamos um e-mail contendo um link para redefinir sua senha. Verifique a sua pasta de spam se você não a receber no próximo minuto ou dois.
+      not_found_message: Não há nenhum usuário registrado com esse endereço de e-mail.
+      submit_button: Recuperar Senha
+      text: Digite seu endereço de e-mail e nós lhe enviaremos um link para redefinir sua senha.
+      title: Esqueceu a Senha
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
+      admin_button: Administração
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Perfil
-      search_placeholder: Search Forum
+      search_placeholder: Pesquisar...
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: Não é possível iniciar uma discussão
+      mark_all_as_read_confirmation: "Tem certeza de que quer marcar todas as discussões como lidas?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Atualizar
       start_discussion_button: => core.ref.start_a_discussion
@@ -292,18 +292,18 @@ core:
     # These translations are used in the Log In modal dialog.
     log_in:
       forgot_password_link: "Esqueceu a senha?"
-      invalid_login_message: Your login details were incorrect.
+      invalid_login_message: Suas informações de login estão incorretos.
       password_placeholder: => core.ref.password
-      remember_me_label: Remember me for two weeks
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: Lembre-se de mim por duas semanas
+      sign_up_text: "Não possui uma conta? <a>Cadastre-se</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: Usuário ou E-mail
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      empty_text: Sem Notificações
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
@@ -326,24 +326,24 @@ core:
       now_link: Agora
       original_post_link: Postagem Original
       unread_text: "{count} não lindos"
-      viewing_text: "{index} de {count} postagem|{index} de {count} postagens"
+      viewing_text: "{index} de {count} postagens|{index} de {count} postagens"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: 'O título antigo era: "{old}"'
+      discussion_renamed_text: "{username} alterou o título para {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} depois"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Enter a new title for this discussion
+      title: Digite um novo título para esta discussão
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'Procurar em todas as dicussões por "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: Usuários
 
@@ -355,8 +355,8 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
+      notify_discussion_renamed_label: Alguém renomeia uma discussão que comecei
+      privacy_disclose_online_label: Permitir que outros vejam quando estou online
       privacy_heading: Privacidade
       title: => core.ref.settings
 
