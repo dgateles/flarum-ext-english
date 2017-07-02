@@ -29,8 +29,8 @@
             }
         },
         "flarum-locale": {
-            "code": "pt-br",
-            "title": "Portuguese"
+            "code": "pt-BR",
+            "title": "Brazilian Portuguese"
         }
     }
 }
