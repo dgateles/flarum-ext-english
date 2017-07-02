@@ -191,7 +191,7 @@ core:
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
+      close_tooltip: Fechar
       exit_full_screen_tooltip: Exit Full Screen
       full_screen_tooltip: Full Screen
       minimize_tooltip: Minimize
@@ -387,7 +387,7 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: Controles
       delete_button: => core.ref.delete
       delete_confirmation: "Tem certeza de que deseja excluir esse usuário? Todas as postagens do usuário serão excluídas."
       edit_button: => core.ref.edit
