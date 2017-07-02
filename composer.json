@@ -15,7 +15,7 @@
     ],
     "support": {
         "issues": "https://github.com/dgateles/flarum-ext-portuguese-br/issues",
-        "source": "https://github.com/dgateles/flarum-ext-portuguese-br",
+        "source": "https://github.com/dgateles/flarum-ext-portuguese-br"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.6"
