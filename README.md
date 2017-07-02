@@ -1,9 +1,6 @@
-# English Language Pack for Flarum
+# Brazilian Portuguese for Flarum
 
 ## Installation
+type composer require dgateles/flarum-ext-ptbr
+or download zip file and put on larum_root_directory/extensions/
 
-This language pack is bundled with [Flarum](http://flarum.org/).
-
-## Translating Flarum
-
-Because Flarum is at an early development stage, instructions to translate it are currently unavailable. Please check [our documentation](http://flarum.org/docs/translate/) when it will be written.
