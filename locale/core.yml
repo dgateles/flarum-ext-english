@@ -112,7 +112,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: Aguarde...
 
     # These translations are used in the navigation bar.
     nav:
@@ -139,15 +139,15 @@ core:
       delete_posts_forever_label: Delete posts forever
       edit_and_delete_posts_label: Edit and delete posts
       global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
+      moderate_heading: Moderar
+      new_group_button: Novo Grupo
+      participate_heading: Participar
+      read_heading: Ler
+      rename_discussions_label: Renomear discussões
+      reply_to_discussions_label: Responder discussões
+      sign_up_label: Cadastre-se
+      start_discussions_label: Iniciar uma discussão
+      view_discussions_label: Ver discussões
       view_post_ips_label: View post IP addresses
       view_user_list_label: View user list
 
