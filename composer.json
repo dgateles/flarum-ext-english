@@ -1,9 +1,17 @@
 {
-    "name": "flarum/flarum-ext-ptbr.mk0",
+    "name": "dgateles/flarum-ext-ptbr",
     "type": "flarum-extension",
     "description": "Brazilian Portuguese language pack.",
     "keywords": ["locale"],
     "license": "MIT",
+        "authors": [
+	    {
+		    "name": "Douglas Teles",
+		    "email": "dga.teles@gmail.com",
+		    "homepage": "https://www.extremehardware.org"
+	    }
+           
+    ],
     "require": {
         "flarum/core": "^0.1.0-beta.6"
     },
