@@ -133,7 +133,7 @@ core:
     permissions:
       allow_renaming_label: Allow renaming
       allow_post_editing_label: Allow post editing
-      create_heading: Create
+      create_heading: Criar
       delete_discussions_forever_label: Delete discussions forever
       delete_discussions_label: Delete discussions
       delete_posts_forever_label: Delete posts forever
@@ -159,8 +159,8 @@ core:
       allow_until_reply_button: Until next reply
       everyone_button: Everyone
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: Fechado
+      signup_open_button: Abrir
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -168,8 +168,8 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: Remove
-      upload_button: Choose an Image...
+      remove_button: Remover
+      upload_button: Selecionar Imagem...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -198,9 +198,9 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
+      body_placeholder: Escreva uma postagem...
       discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      submit_button: Postar Discussão
       title: => core.ref.start_a_discussion
       title_placeholder: Discussion Title
 
@@ -214,8 +214,8 @@ core:
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
+      posted_message: Sua resposta foi publicada.
+      submit_button: Responder
       view_button: View
 
     # These translations are used by the discussion control buttons.
@@ -235,8 +235,8 @@ core:
       empty_text: It looks like there are no discussions here.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      replied_text: "{username} respondeu {ago}"
+      started_text: "{username} iniciou {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -267,7 +267,7 @@ core:
       admin_button: Administration
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
+      profile_button: Perfil
       search_placeholder: Search Forum
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
@@ -278,20 +278,20 @@ core:
       cannot_start_discussion_button: Can't Start Discussion
       mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: Atualizar
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
+      latest_button: Recente
+      newest_button: Novo
+      oldest_button: Antigo
+      relevance_button: Relevante
       top_button: Top
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
+      forgot_password_link: "Esqueceu a senha?"
       invalid_login_message: Your login details were incorrect.
       password_placeholder: => core.ref.password
       remember_me_label: Remember me for two weeks
@@ -310,9 +310,9 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Edited
-      edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      edited_text: Editado
+      edited_tooltip: "{username} editado {ago}"
+      number_tooltip: "Postagem #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -323,10 +323,10 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: Agora
+      original_post_link: Postagem Original
+      unread_text: "{count} não lindos"
+      viewing_text: "{index} de {count} postagem|{index} de {count} postagens"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -345,11 +345,11 @@ core:
     search:
       all_discussions_button: 'Search all discussions for "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: Usuários
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: Conta
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
@@ -357,7 +357,7 @@ core:
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Someone renames a discussion I started
       privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      privacy_heading: Privacidade
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
