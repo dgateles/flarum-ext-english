@@ -185,7 +185,7 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Enviar E-mail de Redefinição de Senha
+      send_button: Redefinir minha senha
       text: Clique no botão abaixo e verifique seu e-mail para redefinir sua senha.
       title: => core.ref.change_password
 
